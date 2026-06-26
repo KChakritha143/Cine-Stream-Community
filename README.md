@@ -5,6 +5,7 @@ CineStream Community is a full-stack MERN application developed to provide a pla
 This project demonstrates complete frontend-backend integration by connecting a React-based user interface with a Node.js and Express REST API, while MongoDB Atlas serves as the persistent database layer.
 
 The application was developed as part of Mission 11 – Full Stack System Integration, focusing on real-world software engineering concepts such as API communication, database persistence, CORS configuration, asynchronous data fetching, state management, and CRUD operations.
+
 ---
 
 ## Project Overview
