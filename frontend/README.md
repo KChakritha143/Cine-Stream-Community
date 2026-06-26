@@ -173,7 +173,7 @@ Favorites are stored using Local Storage.
 ---
 
 ## Live URL
-https://vercel.com/kchakritha143s-projects/cine-stream-community/A1Ax6NGbSqY3h9SfdxKrnBjBCki9
+https://cine-stream-community-fsslmcgan-kchakritha143s-projects.vercel.app/
 
 ## Future Improvements
 
