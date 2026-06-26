@@ -1,4 +1,4 @@
-# CineStream
+# CineStream Community - Frontend
 
 CineStream is a modern movie discovery web application built with React and Vite. It allows users to browse popular movies, search for movies, save favorites, and experience seamless infinite scrolling powered by The Movie Database (TMDB) API.
 
