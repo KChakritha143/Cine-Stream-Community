@@ -179,4 +179,4 @@ CLIENT_URL=frontend_url
 
 ## Live URL
 
- https://cine-stream-community.onrender.com
+ https://cine-stream-community.onrender.com/posts
