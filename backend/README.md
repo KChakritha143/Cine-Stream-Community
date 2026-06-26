@@ -1,68 +1,139 @@
-# Data Storm (Data Hub MongoDB API)
+# CineStream Community - Backend
 
-A RESTful API built with **Node.js**, **Express.js**, **MongoDB Atlas**, and **Mongoose ODM**. This project demonstrates cloud-based NoSQL database integration, persistent data storage, and full CRUD operations for managing posts.
+## Overview
 
-## Features
+This backend powers the CineStream Community application. It provides RESTful APIs for creating, retrieving, and deleting discussion posts while storing data in MongoDB Atlas.
 
-* Create, Read, Update, and Delete (CRUD) posts
-* MongoDB Atlas cloud database integration
-* Mongoose ODM schema modeling
-* RESTful API architecture
-* JSON request/response handling
-* Automated API integration testing
-* Error handling and validation
-
-## Tech Stack
+Built using:
 
 * Node.js
 * Express.js
 * MongoDB Atlas
 * Mongoose
-* JavaScript (ES Modules)
+* CORS
+
+---
+
+## Features
+
+* Retrieve all discussion posts
+* Create new posts
+* Delete existing posts
+* MongoDB database integration
+* CORS configuration for frontend communication
+* Error handling and validation
+* Health check endpoint
+
+---
 
 ## Project Structure
 
 ```text
-.
+backend/
+│
 ├── server.js
-├── post.js
+├── Post.js
 ├── test-api.js
 ├── package.json
+├── package-lock.json
 ├── .env
-└── node_modules/
+└── README.md
 ```
+
+---
 
 ## Installation
 
-1. Clone the repository
+Clone the repository and navigate to the backend folder:
 
 ```bash
-git clone https://github.com/KChakritha143/data-hub-mongodb-api.git
-cd data-hub-mongodb-api
+cd backend
 ```
 
-2. Install dependencies
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-3. Configure environment variables
+---
 
-Create a `.env` file:
+## Environment Variables
+
+Create a `.env` file inside the backend directory.
 
 ```env
-MONGODB_URI=your_mongodb_connection_string
+MONGODB_URI=your_mongodb_atlas_connection_string
 PORT=5000
+CLIENT_URL=http://localhost:5173
 ```
 
-4. Start the server
+---
+
+## Running the Server
+
+Start the backend server:
 
 ```bash
-node server.js
+npm start
 ```
 
+Server runs at:
+
+```text
+http://localhost:5000
+```
+
+---
+
 ## API Endpoints
+
+### Get All Posts
+
+```http
+GET /api/posts
+```
+
+Response:
+
+```json
+[
+  {
+    "id": "123",
+    "title": "Inception",
+    "publisher": "ABC",
+    "content": "Great Movie"
+  }
+]
+```
+
+---
+
+### Create a Post
+
+```http
+POST /api/posts
+```
+
+Request Body:
+
+```json
+{
+  "title": "Interstellar",
+  "publisher": "Chakritha",
+  "content": "Amazing science fiction movie"
+}
+```
+
+---
+
+### Delete a Post
+
+```http
+DELETE /api/posts/:id
+```
+
+---
 
 ### Health Check
 
@@ -70,67 +141,42 @@ node server.js
 GET /health
 ```
 
-### Get All Posts
+---
 
-```http
-GET /posts
-```
+## Database Schema
 
-### Get Single Post
-
-```http
-GET /posts/:id
-```
-
-### Create Post
-
-```http
-POST /posts
-```
-
-Request Body:
+Each post contains:
 
 ```json
 {
-  "title": "First Post",
-  "content": "Hello MongoDB Atlas"
+  "title": "String",
+  "publisher": "String",
+  "content": "String",
+  "createdAt": "Date"
 }
 ```
 
-### Update Post
+---
 
-```http
-PUT /posts/:id
+## ScreenShots
+
+# Database 
+<img width="1917" height="1140" alt="Screenshot 2026-06-26 194353" src="https://github.com/user-attachments/assets/a1cac67b-5693-4a9a-85dc-32dd54ca0ecf" />
+
+## Deployment
+
+Backend can be deployed on platforms such as Render.
+
+Required environment variables:
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+PORT=5000
+CLIENT_URL=frontend_url
 ```
 
-### Delete Post
+---
 
-```http
-DELETE /posts/:id
-```
+## Live URL
 
-## Testing
-
-Run integration tests:
-
-```bash
-node test-api.js
-```
-
-The test suite validates:
-
-* Database connection
-* Create operation
-* Read operations
-* Update operation
-* Delete operation
-* Error handling
-
-## Learning Objectives
-
-* MongoDB Atlas cloud provisioning
-* Mongoose ODM integration
-* Schema design and validation
-* Persistent NoSQL storage
-* REST API development
-* Automated API testing
+ https://cine-stream-community.onrender.com
