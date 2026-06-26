@@ -152,21 +152,28 @@ Favorites are stored using Local Storage.
 ## Screenshots
 
 ### Home Page
-<img width="1919" height="1132" alt="Screenshot 2026-05-31 194928" src="https://github.com/user-attachments/assets/e0af30d1-450f-4bbe-9e37-0cb415771dcd" />
+<img width="1913" height="1150" alt="Screenshot 2026-06-26 192900" src="https://github.com/user-attachments/assets/1381b1c0-61b9-42ac-a741-7b584936cea5" />
 
 ### Search Functionality
-<img width="1919" height="1026" alt="Screenshot 2026-06-01 131536" src="https://github.com/user-attachments/assets/70d8da7a-5846-4e62-a75e-8f82f6523053" />
+<img width="1912" height="1150" alt="image" src="https://github.com/user-attachments/assets/b31ae9f1-3aad-4afa-9870-810c03b584e4" />
 
 ### Favorites Page
-<img width="1918" height="1117" alt="Screenshot 2026-05-31 195149" src="https://github.com/user-attachments/assets/95b38331-603f-409c-8f4f-aa508997add2" />
+<img width="1918" height="1137" alt="Screenshot 2026-06-26 192834" src="https://github.com/user-attachments/assets/cd555f9d-0dcf-4884-8d4f-f8ec294abf5c" />
+
 
 ### Infinite loop
-<img width="1919" height="1130" alt="Screenshot 2026-05-31 195637" src="https://github.com/user-attachments/assets/be76b307-343d-4495-96de-8742712a48fd" />
+<img width="1918" height="1131" alt="Screenshot 2026-06-26 193414" src="https://github.com/user-attachments/assets/4ca8725d-b3ce-4ef2-b39a-1c76dc4476ed" />
+
+### Community
+<img width="1918" height="1132" alt="Screenshot 2026-06-26 193302" src="https://github.com/user-attachments/assets/3155d947-129e-4666-ad88-ae1c2499c407" />
+
+### Reviews
+<img width="1918" height="1122" alt="Screenshot 2026-06-26 193324" src="https://github.com/user-attachments/assets/c8bbcc67-8775-4d27-aaf5-3849cf7c639b" />
 
 ---
 
 ## Live URL
-https://cine-stream-seven-gold.vercel.app/
+https://vercel.com/kchakritha143s-projects/cine-stream-community/A1Ax6NGbSqY3h9SfdxKrnBjBCki9
 
 ## Future Improvements
 
