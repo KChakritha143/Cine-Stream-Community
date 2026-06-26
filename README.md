@@ -43,11 +43,14 @@ This project was developed as part of **Mission 11 – Full Stack System Integra
 ### Deployment
 
 * GitHub
-* Render (Backend)
-    https://cine-stream-community.onrender.com
-* Vercel (Frontend)
-    https://vercel.com/kchakritha143s-projects/cine-stream-community/A1Ax6NGbSqY3h9SfdxKrnBjBCki9
----
+### Render (Backend)
+
+https://cine-stream-community.onrender.com/posts
+   
+### Vercel (Frontend)
+    
+https://cine-stream-community-fsslmcgan-kchakritha143s-projects.vercel.app/    
+    ---
 
 ## Project Structure
 
